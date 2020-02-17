@@ -83,12 +83,5 @@ namespace SimpleWebApp.Controllers
             await _usersContext.SaveChangesAsync();
             return NoContent();
         }
-
-        [HttpGet]
-        [Route("test")]
-        public async Task<IActionResult> Test()
-        {
-            return Ok();
-        }
     }
 }

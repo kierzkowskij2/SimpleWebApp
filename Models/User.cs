@@ -9,10 +9,5 @@ namespace SimpleWebApp.Models
         public string Initials { get; set; }
 
         public string Name { get; set; }
-
-        public override string ToString()
-        {
-            return $"Id: {Id}; Initials: {Initials}; Name: {Name}";
-        }
     }
 }
